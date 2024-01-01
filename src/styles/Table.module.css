@@ -1,0 +1,47 @@
+.table-container {
+	margin: 20px;
+	overflow-x: auto;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: auto;
+}
+
+.th {
+	background-color: #8cd4dc7f;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid #da7171;
+}
+
+.td {
+	padding: 10px;
+	border: 1px solid #ec411adb;
+	text-align: left;
+}
+
+.tr:nth-child(even) {
+	background-color: #ffff;
+}
+
+.tr:nth-child(odd) {
+	background-color: #0000009f;
+	color: #fff;
+}
+
+.pagination {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.pagination button {
+	font-size: 16px;
+	border-radius: 5px;
+	width: 100px;
+}
+
+.alert {
+	color: #fff;
+}
